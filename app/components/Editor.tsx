@@ -1,27 +1,3 @@
-// 'use client'
-// import React from 'react';
-// import CodeMirror from '@uiw/react-codemirror';
-// import { python } from '@codemirror/lang-python';
-// import { oneDark } from '@codemirror/theme-one-dark';
-
-// function Editor() {
-//   const [value, setValue] = React.useState("print('Hello world!')");
-//   const onChange = React.useCallback((val: React.SetStateAction<string>, viewUpdate: any) => {
-//     console.log('val:', val);
-//     setValue(val);
-//   }, []);
-
-//   return (
-//     <CodeMirror
-//       value={value}
-//       height="450px"
-//       extensions={[python(), oneDark]}
-//       onChange={onChange}
-//     />
-//   );
-// }
-
-// export default Editor;
 'use client'
 import React, { useState } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
@@ -68,4 +44,5 @@ function Editor() {
 }
 
 export default Editor;
+
 
