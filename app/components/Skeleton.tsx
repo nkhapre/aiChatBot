@@ -1,6 +1,6 @@
 'use client'
 import { Grid, Paper} from '@mui/material'
-
+import Editor from "./Editor"
 
 function Skeleton() {
     return(
@@ -12,7 +12,9 @@ function Skeleton() {
             </Grid>
           </Grid>
         </Grid>
+        
         <Grid item xs={7}>
+          <Editor/>
           <Paper style={{ height: '100%' }} />
         </Grid>
       </Grid>
